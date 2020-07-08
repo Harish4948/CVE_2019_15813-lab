@@ -1,14 +1,10 @@
-                       			README
-
-
-
-Intruction to run(No dependencies):
+# Intruction to run(No dependencies):
 
 
 		  1) Build the docker as follows:
 
 			
-docker build -t remote .
+			docker build -t remote .
 
 
 		  2) Run the docker
@@ -20,7 +16,7 @@ docker build -t remote .
 		  3) The webserver serves the application on localhost(The sentrigufo application is run in /var/www/html/ inside docker)
 
 
-Config:
+# Config:
 
 	The database is run on a local server inside the docker container.
 
@@ -41,7 +37,7 @@ Config:
           3) Build and run docker again. If the database and configuration are setup properly,The application will be served in localhost
 
 
-Credentials :
+# Credentials :
 	
 	Sentrifugo Super USER
 
